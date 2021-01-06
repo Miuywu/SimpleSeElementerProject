@@ -1,0 +1,58 @@
+{
+  "name": "SignInPage",
+  "defaultLocale": "en_US",
+  "elements": [
+    {
+      "name": "emailField",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "xpath=//input[@type='email']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 45
+      }
+    },
+    {
+      "name": "continueButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "xpath=//*[@id='continue']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 45
+      }
+    },
+    {
+      "name": "passField",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "xpath=//input[@type='password']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 45
+      }
+    },
+    {
+      "name": "signInButton",
+      "locale": [
+        {
+          "name": "en_US",
+          "locator": "xpath=//input[@id='signInSubmit']"
+        }
+      ],
+      "wait": {
+        "until": "visible",
+        "for": 45
+      }
+    }
+  ]
+}

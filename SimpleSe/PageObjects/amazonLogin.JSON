@@ -1,0 +1,58 @@
+{
+    "name": "amazonLogin",
+    "defaultLocale": "EN_US",
+    "elements": [
+      {
+        "name": "email",
+        "locale": [
+          {
+            "name": "username",
+            "locator": "xpath=//input[@type='email']"
+          }
+        ],
+        "wait": {
+          "until": "visible",
+          "for": 45
+        }
+      },
+      {
+        "name": "continueButton",
+        "locale": [
+          {
+            "name": "continue",
+            "locator": "xpath=//input[@id='continue']"
+          }
+        ],
+        "wait": {
+          "until": "clickable",
+          "for": 45
+        }
+      },
+      {
+        "name": "pwd",
+        "locale": [
+          {
+            "name": "pass",
+            "locator": "xpath=//input[@type='password']"
+          }
+        ],
+        "wait": {
+          "until": "visible",
+          "for": 45
+        }
+      },
+      {
+        "name": "submitButton",
+        "locale": [
+          {
+            "name": "submit",
+            "locator": "xpath=//input[@id='signInSubmit']"
+          }
+        ],
+        "wait": {
+          "until": "clickable",
+          "for": 45
+        }
+      }
+    ]
+  }
