@@ -1,0 +1,23 @@
+vars - doc.getelem
+sections - menu buttons
+alerts - ?
+navButtons - show buttons for sections
+var db = new PouchDB - stores ?? in SQL
+showSection - displays menu options available
+showPageObjects - calls to allDocs() from db
+function addPageObject - id, name, defLocale, elementer version, elements
+    puts into db
+    result.id ??
+INSIDE JSON:
+name, defLocale, elements -> locale -> locator -> xpath/data
+function addPageObjectFormDisplay() - adds element to section list
+    turns on inspector
+
+addElementListener
+    vars for pageinfo - element name, islist, element type
+    vars for locales
+
+    db.get - stores locale info into selectedAttr
+
+updatedoc
+    holds JSON of pageobj
