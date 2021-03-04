@@ -1,0 +1,111 @@
+{
+  "name": "AndroidYoutube",
+  "defaultLocale": "en_CA",
+  "elements": [
+    {
+      "name": "Lib",
+      "list": false,
+      "type": "generic",
+      "locales": [
+        {
+          "locale": "en_CA",
+          "locator": "accessibilityId=Library",
+          "AllLocators": [
+            "xpath=//android.widget.Button[@content-desc=\"Library\"]",
+            "accessiblityId=Library"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Subs",
+      "list": false,
+      "type": "generic",
+      "locales": [
+        {
+          "locale": "en_CA",
+          "locator": "accessibilityId=Subscriptions",
+          "AllLocators": [
+            "xpath=//android.widget.Button[@content-desc=\"Subscriptions\"]",
+            "accessiblityId=Subscriptions"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nots",
+      "list": false,
+      "type": "generic",
+      "locales": [
+        {
+          "locale": "en_CA",
+          "locator": "accessibilityId=Notifications",
+          "AllLocators": [
+            "xpath=//android.widget.Button[@content-desc=\"Notifications\"]",
+            "accessiblityId=Notifications"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Explore",
+      "list": false,
+      "type": "generic",
+      "locales": [
+        {
+          "locale": "en_CA",
+          "locator": "accessibilityId=Explore",
+          "AllLocators": [
+            "xpath=//android.widget.Button[@content-desc=\"Explore\"]",
+            "accessiblityId=Explore"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home",
+      "list": false,
+      "type": "generic",
+      "locales": [
+        {
+          "locale": "en_CA",
+          "locator": "accessibilityId=Home",
+          "AllLocators": [
+            "xpath=//android.widget.Button[@content-desc=\"Home\"]",
+            "accessiblityId=Home"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "list": false,
+      "type": "generic",
+      "locales": [
+        {
+          "locale": "en_CA",
+          "locator": "accessibilityId=Search",
+          "AllLocators": [
+            "xpath=//android.widget.ImageView[@content-desc=\"Search\"]",
+            "accessiblityId=Search"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "searchText",
+      "list": false,
+      "type": "generic",
+      "locales": [
+        {
+          "locale": "en_CA",
+          "locator": "xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.EditText",
+          "AllLocators": [
+            "xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.EditText"
+          ]
+        }
+      ]
+    }
+  ],   
+  "elementerVersion": "1.0.3"
+}

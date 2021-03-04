@@ -1,0 +1,63 @@
+{
+  "name": "USB",
+  "defaultLocale": "en",
+  "elements": [
+    {
+      "name": "buyNowButtonGeneric",
+      "list": false,
+      "type": "generic",
+      "locales": [
+        {
+          "locale": "en",
+          "locator": "buy-now-button",
+          "AllLocators": [
+            "tagName=input",
+            "xpath=//*[@id='buy-now-button']",
+            "css=input#buy-now-button.a-button-input",
+            "class=a-button-input",
+            "name=submit.buy-now",
+            "tagId=buy-now-button"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "apEmailGeneric",
+      "list": false,
+      "type": "generic",
+      "locales": [
+        {
+          "locale": "en",
+          "locator": "ap_email",
+          "AllLocators": [
+            "tagName=input",
+            "xpath=//*[@id='ap_email']",
+            "css=input#ap_email.a-input-text.a-span12.auth-autofocus.auth-required-field",
+            "class=a-input-text a-span12 auth-autofocus auth-required-field",
+            "name=email",
+            "tagId=ap_email"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "continueGeneric",
+      "list": false,
+      "type": "generic",
+      "locales": [
+        {
+          "locale": "en",
+          "locator": "continue",
+          "AllLocators": [
+            "tagName=input",
+            "xpath=//*[@id='continue']",
+            "css=input#continue.a-button-input",
+            "class=a-button-input",
+            "tagId=continue"
+          ]
+        }
+      ]
+    }
+  ],
+  "elementerVersion": "1.0.3"
+}

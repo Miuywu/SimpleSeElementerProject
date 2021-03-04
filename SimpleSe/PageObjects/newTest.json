@@ -1,0 +1,44 @@
+{
+  "name": "SignIn",
+  "defaultLocale": "en",
+  "elements": [
+    {
+      "name": "apEmailText",
+      "list": false,
+      "type": "text",
+      "locales": [
+        {
+          "locale": "en",
+          "locator": "ap_email",
+          "AllLocators": [
+            "tagName=input",
+            "xpath=//*[@id='ap_email']",
+            "css=input#ap_email.a-input-text.a-span12.auth-autofocus.auth-required-field",
+            "class=a-input-text a-span12 auth-autofocus auth-required-field",
+            "name=email",
+            "tagId=ap_email"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "continueButton",
+      "list": false,
+      "type": "button",
+      "locales": [
+        {
+          "locale": "en",
+          "locator": "continue",
+          "AllLocators": [
+            "tagName=input",
+            "xpath=//*[@id='continue']",
+            "css=input#continue.a-button-input",
+            "class=a-button-input",
+            "tagId=c"
+          ]
+        }
+      ]
+    }
+  ],
+  "elementerVersion": "1.0.3"
+}
